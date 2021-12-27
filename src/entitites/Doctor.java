@@ -103,7 +103,7 @@ public class Doctor {
     public void bookAppointment(String date, int hour) throws Exception {
         AppointmentSlot appointmentSlot = new AppointmentSlot(date, hour);
         if(isValidAppointmentSlot(date, hour) &&
-                bookedSlots.contains(appointmentSlot)){
+                !bookedSlots.contains(appointmentSlot)){
             bookedSlots.add(appointmentSlot);
         }
         else{

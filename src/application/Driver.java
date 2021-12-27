@@ -36,7 +36,7 @@ public class Driver {
                         break;
 
                     case 2:
-                        System.out.print("Choose a specialization(Select the sequence number only) : ");
+                        System.out.println("Choose a specialization(Select the sequence number only) : ");
                         app.printSpecializations();
                         int specializationSequence = sc.nextInt();
                         availableDoctors = app.getDoctorsBySpecialization(specializationSequence);
@@ -58,7 +58,7 @@ public class Driver {
                         Appointment appointment = app.bookAppointment(userId, doctorId, date, bookingHour);
 
                         System.out.println("Appointment confirmed. Please find the details below.");
-                        appointment.toString();
+                        System.out.print(appointment.toString());
                         break;
 
                     default:
@@ -125,7 +125,7 @@ public class Driver {
                 String city = sc.next();
                 System.out.print("Year of experience : ");
                 int yearsOfExperience = sc.nextInt();
-                System.out.print("Choose a specialization(Select the sequence number only) : ");
+                System.out.println("Choose a specialization(Select the sequence number only) : ");
                 app.printSpecializations();
                 int specializationSequence = sc.nextInt();
 
