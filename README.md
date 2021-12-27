@@ -55,3 +55,8 @@ User, Doctor & Appointment- each of these entities will also have 2 more attribu
 - Static variable named "counter", which will be initialized with 0. 
 
 In each object creation, the "ID" attribute will be set as the current value of this variable. And after the object creation, this static variable needs to be incremented by 1. 
+
+<img width="522" alt="Screenshot 2021-12-28 at 2 55 20 AM" src="https://user-images.githubusercontent.com/10265166/147508242-ccd5c564-23ad-4b65-bbad-d778cc602fad.png">
+<img width="805" alt="Screenshot 2021-12-28 at 3 11 07 AM" src="https://user-images.githubusercontent.com/10265166/147509003-f22fad8a-37a1-4957-8daa-71e5bd3d3b01.png">
+<img width="663" alt="Screenshot 2021-12-28 at 3 17 39 AM" src="https://user-images.githubusercontent.com/10265166/147509322-80b97425-09e0-4fb9-915a-8b8e0bc63b1d.png">
+<img width="1674" alt="Screenshot 2021-12-28 at 3 20 37 AM" src="https://user-images.githubusercontent.com/10265166/147509427-5a66d7ca-4a0d-45de-aba5-57bd7690e764.png">
